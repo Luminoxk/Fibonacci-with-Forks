@@ -1,0 +1,26 @@
+Compile command gcc -o forkExample forkExample.c
+
+Start-up: ./forkExample
+
+	/* fork another process */
+	This section uses fork() to create a new child process. The program then checks the result of fork() to determine what process it is running.
+
+	/* child process */
+	This section contains the code that runs in the child process. In this example, the child uses execlp() to run the ls command
+	else if (pid == 0) {any code that calls on the method you want the child to do}
+
+	/* parent process */
+	This section contains the code that runs in the original parent process. The parent waits for the child to finish and then continues with the rest of the program.
+
+Files
+Fibonacci/
+|--forkExample.c
+|--README.txt
+
+forkExample.c
+-Just a simple code showing how to implement a fork/create a child process
+
+
+
+Luminokx - Find the light in darkness
+CREDIT - unknown
